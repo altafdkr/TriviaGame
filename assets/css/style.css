@@ -1,0 +1,20 @@
+
+.gamehead {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inforow {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.answer {
+    font-size: 20px;
+}
