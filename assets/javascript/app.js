@@ -94,7 +94,7 @@ $(document).on("click", ".answer", function() {
     stopTimer();
     // If answer is correct
     if( $(this).text() == questions[onQuestion].correctans ) {
-        $("#question").html("Let's see if get the next one ..");
+        $("#question").html("Let's see if you get the next one ..");
         $("#answers").html("<h1>\"" + questions[onQuestion].correctans + "\" is correct!</h1><br><br>");
         // increment to next question number
         onQuestion++;
