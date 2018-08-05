@@ -1,3 +1,20 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .gamehead {
     font-size: 55px;
@@ -13,8 +30,15 @@
 .question {
     font-size: 25px;
     font-weight: bold;
+    text-align: center;
+}
+
+#answers {
+    text-align: center;
 }
 
 .answer {
     font-size: 20px;
+    text-align: center;
 }
+

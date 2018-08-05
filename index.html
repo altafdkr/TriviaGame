@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Trivia Game</title>
+    <title>Superhero Trivia Game</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,35 +11,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+    <div class="bg">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 gamehead">Trivia Game</div>
+            <div class="col-md-12 gamehead">Superhero Trivia Game</div>
         </div>
         <div class="row inforow my-5">
             <div class="col-md-8" id="message">
-                Message goes here
+                Press Start to Begin! <button class="btn btn-success btn-lg" id="startBtn">Start Game</button>
             </div>
             <div class="col-md-4" id="time">
-
+                    6 Questions - 3 minutes
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="card-header question mb-4" id="question">
-                    Question Goes Here
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                    <div class="list-group" id="answers">
-                        <a href="#" class="list-group-item list-group-item-action answer">
-                            Cras justo odio
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action answer">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item list-group-item-action answer">Morbi leo risus</a>
-                        <a href="#" class="list-group-item list-group-item-action answer">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item list-group-item-action answer">Vestibulum at eros</a>
+            <div class="col-md-8" id="answers">
+                    <iframe src="https://giphy.com/embed/3oxRmAYvwBnTGEbe2A" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+            <div class="col-md-4">
+                    <div id="heroimg">       
                     </div>
             </div>
         </div>
@@ -51,6 +47,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
     <script src="assets/javascript/app.js"></script>
-
+</div>
   </body>
 </html>
